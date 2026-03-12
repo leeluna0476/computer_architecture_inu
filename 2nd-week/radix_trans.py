@@ -14,7 +14,7 @@ def radix_trans_in(n, m, r=2):
 def radix_trans(n, r=2):
     m = dict()
     m[2] = "01"
-    m[8] = "012345678"
+    m[8] = "01234567"
     m[16] = "0123456789ABCDEF"
     radix_trans_in(n, m, r)
     print()
